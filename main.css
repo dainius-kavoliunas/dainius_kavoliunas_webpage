@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'Futura PT Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura PT Light'), url('FuturaCyrillicLight.woff') format('woff');
+  }
+
+@font-face {
+  font-family: 'Futura PT Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura PT Bold'), url('FuturaCyrillicBold.woff') format('woff');
+  }
+
+@font-face {
+  font-family: 'Milibus Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Milibus Light'), url('MilibusLight.ttf') format('woff');
+  }
+
+  
+p {
+    font-family: Futura PT Light;
+    font-size: 22px;
+    letter-spacing: 0.05em;
+    line-height: 1.65em;
+    text-transform: none;
+    color: rgb(54, 54, 54);
+}
+
+.left-column {
+  text-align: center;
+}
+
+.hero {
+  z-index: -1;
+  height:600px; 
+  background-image: url('hero_image.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.name
+{
+  font-family: Milibus Light;
+  font-size: 6vw;
+  color: #fff;
+}
