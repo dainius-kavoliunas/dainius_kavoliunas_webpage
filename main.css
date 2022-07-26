@@ -19,7 +19,11 @@
   src: local('Milibus Light'), url('MilibusLight.ttf') format('woff');
   }
 
-  
+ 
+html {
+  scroll-behavior: smooth;
+}  
+
 p {
     font-family: Futura PT Light;
     font-size: 22px;
@@ -46,4 +50,15 @@ p {
   font-family: Milibus Light;
   font-size: 6vw;
   color: #fff;
+}
+
+.indicator {
+  width: 65px;
+  filter: invert(100%) sepia(3%) saturate(7%) hue-rotate(15deg) brightness(106%) contrast(100%);
+  transition: margin-top .5s
+}
+
+.indicator:hover {
+  margin-top: 7px;
+  cursor: pointer;
 }
